@@ -1,430 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generated with glade 3.20.0 -->
+<!-- Generated with glade 3.22.1 -->
 <interface>
   <requires lib="gtk+" version="3.20"/>
-  <object class="GtkMenu">
-    <property name="visible">True</property>
-    <property name="can_focus">False</property>
-  </object>
-  <object class="GtkPopoverMenu" id="emoji_popover">
-    <property name="width_request">100</property>
-    <property name="height_request">100</property>
-    <property name="can_focus">True</property>
-    <property name="hexpand">False</property>
-    <property name="vexpand">False</property>
-    <child>
-      <object class="GtkGrid">
-        <property name="visible">True</property>
-        <property name="can_focus">False</property>
-        <property name="row_spacing">1</property>
-        <property name="column_spacing">1</property>
-        <child>
-          <object class="GtkImage" id="img_emoji_0">
-            <property name="width_request">16</property>
-            <property name="height_request">16</property>
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_00.png</property>
-            <property name="icon_size">1</property>
-          </object>
-          <packing>
-            <property name="left_attach">0</property>
-            <property name="top_attach">0</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_1">
-            <property name="width_request">16</property>
-            <property name="height_request">16</property>
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_01.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">1</property>
-            <property name="top_attach">0</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_3">
-            <property name="width_request">16</property>
-            <property name="height_request">16</property>
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_03.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">2</property>
-            <property name="top_attach">0</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_4">
-            <property name="width_request">16</property>
-            <property name="height_request">16</property>
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_04.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">3</property>
-            <property name="top_attach">0</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_05">
-            <property name="width_request">16</property>
-            <property name="height_request">16</property>
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_05.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">0</property>
-            <property name="top_attach">1</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_06">
-            <property name="width_request">16</property>
-            <property name="height_request">16</property>
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_00.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">1</property>
-            <property name="top_attach">1</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_07">
-            <property name="width_request">16</property>
-            <property name="height_request">16</property>
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_07.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">2</property>
-            <property name="top_attach">1</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_08">
-            <property name="width_request">16</property>
-            <property name="height_request">16</property>
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_08.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">3</property>
-            <property name="top_attach">1</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_09">
-            <property name="width_request">16</property>
-            <property name="height_request">16</property>
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_09.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">0</property>
-            <property name="top_attach">2</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_10">
-            <property name="width_request">16</property>
-            <property name="height_request">16</property>
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_10.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">1</property>
-            <property name="top_attach">2</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_11">
-            <property name="width_request">16</property>
-            <property name="height_request">16</property>
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_11.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">2</property>
-            <property name="top_attach">2</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_12">
-            <property name="width_request">16</property>
-            <property name="height_request">16</property>
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_12.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">3</property>
-            <property name="top_attach">2</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_13">
-            <property name="width_request">16</property>
-            <property name="height_request">16</property>
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_13.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">0</property>
-            <property name="top_attach">3</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_14">
-            <property name="width_request">16</property>
-            <property name="height_request">16</property>
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_14.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">1</property>
-            <property name="top_attach">3</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_15">
-            <property name="width_request">16</property>
-            <property name="height_request">16</property>
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_15.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">2</property>
-            <property name="top_attach">3</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_16">
-            <property name="width_request">16</property>
-            <property name="height_request">16</property>
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_16.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">3</property>
-            <property name="top_attach">3</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_17">
-            <property name="width_request">16</property>
-            <property name="height_request">16</property>
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_17.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">0</property>
-            <property name="top_attach">4</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_18">
-            <property name="width_request">16</property>
-            <property name="height_request">16</property>
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_18.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">1</property>
-            <property name="top_attach">4</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_19">
-            <property name="width_request">16</property>
-            <property name="height_request">16</property>
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_19.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">3</property>
-            <property name="top_attach">4</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_20">
-            <property name="width_request">16</property>
-            <property name="height_request">16</property>
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_20.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">0</property>
-            <property name="top_attach">5</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_21">
-            <property name="width_request">16</property>
-            <property name="height_request">16</property>
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_21.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">1</property>
-            <property name="top_attach">5</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_22">
-            <property name="width_request">16</property>
-            <property name="height_request">16</property>
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_22.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">2</property>
-            <property name="top_attach">5</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_23">
-            <property name="width_request">16</property>
-            <property name="height_request">16</property>
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_23.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">3</property>
-            <property name="top_attach">5</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_24">
-            <property name="width_request">16</property>
-            <property name="height_request">16</property>
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_24.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">0</property>
-            <property name="top_attach">6</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_25">
-            <property name="width_request">16</property>
-            <property name="height_request">16</property>
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_25.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">1</property>
-            <property name="top_attach">6</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_26">
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_26.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">2</property>
-            <property name="top_attach">6</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_27">
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_27.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">3</property>
-            <property name="top_attach">6</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img_emoji_28">
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="pixbuf">emoji_28.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">2</property>
-            <property name="top_attach">4</property>
-          </packing>
-        </child>
-      </object>
-      <packing>
-        <property name="submenu">main</property>
-        <property name="position">1</property>
-      </packing>
-    </child>
-  </object>
-  <object class="GtkImage" id="img_align_center">
-    <property name="visible">True</property>
-    <property name="can_focus">False</property>
-    <property name="pixbuf">icon_center_align.png</property>
-  </object>
-  <object class="GtkImage" id="img_align_fill">
-    <property name="visible">True</property>
-    <property name="can_focus">False</property>
-    <property name="pixbuf">icon_fill_align.png</property>
-  </object>
-  <object class="GtkImage" id="img_align_left">
-    <property name="visible">True</property>
-    <property name="can_focus">False</property>
-    <property name="pixbuf">icon_left_align.png</property>
-  </object>
-  <object class="GtkImage" id="img_align_right">
-    <property name="visible">True</property>
-    <property name="can_focus">False</property>
-    <property name="pixbuf">icon_right_align.jpg</property>
-  </object>
-  <object class="GtkImage" id="img_font_bold">
-    <property name="visible">True</property>
-    <property name="can_focus">False</property>
-    <property name="pixbuf">icon_bold.png</property>
-  </object>
-  <object class="GtkImage" id="img_font_italic">
-    <property name="visible">True</property>
-    <property name="can_focus">False</property>
-    <property name="pixbuf">icon_italic.png</property>
-  </object>
-  <object class="GtkImage" id="img_font_underline">
-    <property name="visible">True</property>
-    <property name="can_focus">False</property>
-    <property name="pixbuf">icon_underline.png</property>
-  </object>
   <object class="GtkWindow" id="MainWindow">
     <property name="can_focus">False</property>
     <property name="border_width">6</property>
     <property name="default_width">690</property>
     <property name="default_height">588</property>
     <signal name="destroy" handler="close" swapped="no"/>
+    <child>
+      <placeholder/>
+    </child>
     <child>
       <object class="GtkBox">
         <property name="visible">True</property>
@@ -434,7 +20,7 @@
           <object class="GtkHeaderBar" id="HeaderBar">
             <property name="visible">True</property>
             <property name="can_focus">False</property>
-            <property name="title">Notepad</property>
+            <property name="title" translatable="yes">Notepad</property>
             <child>
               <object class="GtkButtonBox" id="ButtonBox">
                 <property name="visible">True</property>
@@ -653,6 +239,7 @@
                         <property name="receives_default">True</property>
                         <property name="font">Sans 12</property>
                         <property name="preview_text"/>
+                        <signal name="font-set" handler="font" swapped="no"/>
                       </object>
                     </child>
                   </object>
@@ -662,12 +249,16 @@
                   </packing>
                 </child>
                 <child>
+ 		<object class="GtkImage" id="icon_bold">				
+			<property name="file">imgs/icon_bold.png</property>
+		</object>
                   <object class="GtkToggleToolButton" id="bold">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <property name="label" translatable="yes">Bold</property>
                     <property name="use_underline">True</property>
-                    <property name="icon_widget">img_font_bold</property>
+                    <property name="icon_widget">icon_bold</property>
+
                     <signal name="toggled" handler="button_clicked" swapped="no"/>
                     <accelerator key="b" signal="clicked" modifiers="GDK_CONTROL_MASK"/>
                   </object>
@@ -677,11 +268,13 @@
                   </packing>
                 </child>
                 <child>
+ 		<object class="GtkImage" id="icon_italic">				
+			<property name="file">imgs/icon_italic.png</property>
+		</object>
                   <object class="GtkToggleToolButton" id="italics">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="label" translatable="yes">Italic</property>
-                    <property name="icon_widget">img_font_italic</property>
+                    <property name="icon_widget">icon_italic</property>
                     <signal name="toggled" handler="button_clicked" swapped="no"/>
                   </object>
                   <packing>
@@ -690,11 +283,13 @@
                   </packing>
                 </child>
                 <child>
+		<object class="GtkImage" id="icon_underline">				
+			<property name="file">imgs/icon_underline.png</property>
+		</object>
                   <object class="GtkToggleToolButton" id="underline">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="label" translatable="yes">Underline</property>
-                    <property name="icon_widget">img_font_underline</property>
+                    <property name="icon_widget">icon_underline</property>
                     <signal name="toggled" handler="button_clicked" swapped="no"/>
                   </object>
                   <packing>
@@ -714,12 +309,16 @@
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <child>
+		<object class="GtkImage" id="icon_left_align">				
+			<property name="file">imgs/icon_left_align.png</property>
+		</object>
                   <object class="GtkRadioToolButton" id="left">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <property name="label" translatable="yes">left</property>
                     <property name="use_underline">True</property>
-                    <property name="icon_widget">img_align_left</property>
+                    <property name="icon_widget">icon_left_align</property>
+
                     <property name="active">True</property>
                     <signal name="clicked" handler="change_justification_helper" swapped="no"/>
                     <signal name="toggled" handler="change_justification" swapped="no"/>
@@ -730,12 +329,15 @@
                   </packing>
                 </child>
                 <child>
+		<object class="GtkImage" id="icon_center_align">				
+			<property name="file">imgs/icon_center_align.png</property>
+		</object>
                   <object class="GtkRadioToolButton" id="center">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <property name="label" translatable="yes">center</property>
                     <property name="use_underline">True</property>
-                    <property name="icon_widget">img_align_center</property>
+		    <property name="icon_widget">icon_center_align</property>
                     <property name="active">True</property>
                     <property name="group">left</property>
                     <signal name="toggled" handler="change_justification" swapped="no"/>
@@ -746,12 +348,15 @@
                   </packing>
                 </child>
                 <child>
+		<object class="GtkImage" id="icon_right_align">				
+			<property name="file">imgs/icon_right_align.png</property>
+		</object>
                   <object class="GtkRadioToolButton" id="right">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <property name="label" translatable="yes">right</property>
                     <property name="use_underline">True</property>
-                    <property name="icon_widget">img_align_right</property>
+		    <property name="icon_widget">icon_right_align</property>
                     <property name="active">True</property>
                     <property name="group">center</property>
                     <signal name="toggled" handler="change_justification" swapped="no"/>
@@ -762,12 +367,15 @@
                   </packing>
                 </child>
                 <child>
+		<object class="GtkImage" id="icon_fill_align">				
+			<property name="file">imgs/icon_fill_align.png</property>
+		</object>
                   <object class="GtkRadioToolButton" id="fill">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <property name="label" translatable="yes">fill</property>
                     <property name="use_underline">True</property>
-                    <property name="icon_widget">img_align_fill</property>
+                    <property name="icon_widget">icon_fill_align</property>
                     <property name="active">True</property>
                     <property name="group">right</property>
                     <signal name="toggled" handler="change_justification" swapped="no"/>
@@ -840,50 +448,6 @@
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkToolItem" id="emoji_chooser_parent">
-                    <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <child>
-                      <object class="GtkBox">
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <child>
-                          <object class="GtkImage" id="img_emoji">
-                            <property name="visible">True</property>
-                            <property name="can_focus">False</property>
-                            <property name="pixbuf">emoji_01.png</property>
-                          </object>
-                          <packing>
-                            <property name="expand">False</property>
-                            <property name="fill">True</property>
-                            <property name="position">0</property>
-                          </packing>
-                        </child>
-                        <child>
-                          <object class="GtkMenuButton" id="emoji_chooser">
-                            <property name="visible">True</property>
-                            <property name="can_focus">True</property>
-                            <property name="receives_default">True</property>
-                            <property name="popover">emoji_popover</property>
-                            <child>
-                              <placeholder/>
-                            </child>
-                          </object>
-                          <packing>
-                            <property name="expand">False</property>
-                            <property name="fill">True</property>
-                            <property name="position">1</property>
-                          </packing>
-                        </child>
-                      </object>
-                    </child>
-                  </object>
-                  <packing>
-                    <property name="expand">False</property>
-                    <property name="homogeneous">True</property>
-                  </packing>
-                </child>
-                <child>
                   <object class="GtkToolButton" id="search">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
@@ -891,50 +455,6 @@
                     <property name="use_underline">True</property>
                     <property name="stock_id">gtk-find</property>
                     <signal name="clicked" handler="on_search_clicked" swapped="no"/>
-                  </object>
-                  <packing>
-                    <property name="expand">False</property>
-                    <property name="homogeneous">True</property>
-                  </packing>
-                </child>
-                <child>
-                  <object class="GtkToolItem" id="emoji_chooser_parent1">
-                    <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <child>
-                      <object class="GtkBox">
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <child>
-                          <object class="GtkImage" id="img_emoji1">
-                            <property name="visible">True</property>
-                            <property name="can_focus">False</property>
-                            <property name="stock">gtk-select-color</property>
-                          </object>
-                          <packing>
-                            <property name="expand">False</property>
-                            <property name="fill">True</property>
-                            <property name="position">0</property>
-                          </packing>
-                        </child>
-                        <child>
-                          <object class="GtkMenuButton" id="emoji_chooser1">
-                            <property name="visible">True</property>
-                            <property name="can_focus">True</property>
-                            <property name="receives_default">True</property>
-                            <property name="popover">emoji_popover</property>
-                            <child>
-                              <placeholder/>
-                            </child>
-                          </object>
-                          <packing>
-                            <property name="expand">False</property>
-                            <property name="fill">True</property>
-                            <property name="position">1</property>
-                          </packing>
-                        </child>
-                      </object>
-                    </child>
                   </object>
                   <packing>
                     <property name="expand">False</property>
